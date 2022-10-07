@@ -10,14 +10,9 @@ using namespace std;
 void swap(int a, int b, int c);
 void swaptwo(int a, int b);
 
-void getinput(int a, int b, int c){
+void swap(int a, int b, int c){
     cout << "Enter three integers, separated by spaces: \n";
     cin >> a >> b >> c;
-    swap(a, b, c);
-}
-
-void swap(int a, int b, int c){
-    int numA;
     cout << c << ", ";
     swaptwo(a, b);
 }
